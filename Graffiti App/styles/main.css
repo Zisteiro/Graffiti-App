@@ -144,3 +144,6 @@
         background-size: 100%;
     }
 }
+ .ui-page{
+    background: transparent url(../Images/Salk.jpg)
+}
