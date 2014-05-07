@@ -15,10 +15,31 @@
      <body>
           
          <!--Header-->
-         <div data-role="header">
+       
+      
   <h1>Markers</h1>
-            
-         <div data-role="content"></div><div class="nav">
+            <div id="history" data-role="page" data-add-back-btn="true">
+             <div data-role="header" data-add-back-btn="true">
+                 <h1>Items</h1>
+             </div>
+             <div data-role="content">
+             <div class="nav">
+                <ul data-role="listview" data-filter="true" data-filter-placeholder="Elige lo que quieres saber">
+                    <li>
+                        <a href="krink.html" data-transition="slide">Montana</a>
+                    </li>
+                    <li>
+                        <a href="montana.html" data-transition="slide">Krink</a>
+                    </li>
+                </ul>
+            </div>
+       </div>
+
+             
+         </div>
+         
+         <!--Content-->
+         <div data-role="content"> <div class="nav">
             <ul data-role="listview" data-filter="true" data-filter-placeholder="Elige lo que quieres saber">
                 <li>
                     <a href="krink.html" data-transition="slide">Montana</a>
@@ -28,10 +49,6 @@
                 </li>
             </ul>
         </div>
-    </div>
-         
-         <!--Content-->
-         <div data-role="content">
          
          </div>
  
