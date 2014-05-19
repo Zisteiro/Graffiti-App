@@ -1,0 +1,11 @@
+{
+	"introduction":"This quiz tests you about foo and goo", 
+	"questions":[
+		{"question":"Why is the sky blue?", 
+		 "answers":["Unicorns","Fairies","Boring Science","Kittens"],
+		 "correct":2},
+		{"question":"Why are kittens so cute?", 
+		 "answers":["Magic","Fur","Meow","More Kittens!"],
+		 "correct":3}
+	]
+}
