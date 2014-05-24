@@ -2,8 +2,10 @@
 
 <html>
     <head>
-        <title>Items</title>
-         <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <meta charset="UTF-8" />
+    <title>History</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
     <link href="styles/main.css" rel="stylesheet" />
 
@@ -12,46 +14,42 @@
     <script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text"></script>
 
     </head>
-     <body>
-          
-         <!--Header-->
-       <h1>Markers</h1>
-            <div id="history" data-role="page" data-add-back-btn="true">
-             <div data-role="header" data-add-back-btn="true">
-                 <h1>Items</h1>
-             </div>
-             <div data-role="content">
-             <div class="nav">
-                <ul data-role="listview" data-filter="true" data-filter-placeholder="Elige lo que quieres saber">
-                    <li>
-                        <a href="krink.html" data-transition="slide">Montana</a>
-                    </li>
-                    <li>
-                        <a href="montana.html" data-transition="slide">Krink</a>
-                    </li>
-                </ul>
+    <body>
+        
+        <!--inicio-->
+        <div data-role="page" id="info">
+            
+            <div data-role="header" data-position="fixed">
+                <a href="index.html" data-iconpos="notext" data-role="button" data-icon="back" data-transition="slide"></a>
+               		<h1> History</h1>
+               <a href="index.html" data-iconpos="notext" data-role="button" data-icon="home" data-transition="pop"></a>
             </div>
+        
+   <div data-role="collapsible" data-theme="b" data-content-theme="d" data-inset="false">
+    <h3>Different Brands</h3>
+       <div data-role="collapsible">
+    <h4>Montana</h4>
+    <p>Thats one of our favourite brands, has frown up with us adapting to our requirments etcetera</p>
+ <img src="Images/motana.jpg">
        </div>
-
-             
-         </div>
-         
-         <!--Content-->
-         <div data-role="content"> <div class="nav">
-            <ul data-role="listview" data-filter="true" data-filter-placeholder="Elige lo que quieres saber">
-                <li>
-                    <a href="krink.html" data-transition="slide">Montana</a>
-                </li>
-                <li>
-                    <a href="montana.html" data-transition="slide">Krink</a>
-                </li>
-                <li>
-                    <a href="trivial" data-transition="slide">Try  your knowledges</a>
-                </li>
-            </ul>
+        <div data-role="collapsible">
+    <h4>Kobra</h4>
+ <p>This one is for most illegal graffiti, the cans are with high pressure, perfect for trains or some bombing around the city</p>
+ <img src="Images/kobra.jpg">
+       </div>
+       
+          <div data-role="collapsible">
+    <h4>Krink</h4>
+               <img src="Images/girlkrink.jpg" border="0" height="250" width="280">
+ <p>In collaboration with montana grew up this one, for most difficult places exists the K-750 and some new products</p>
+ <img src="Images/extintores.jpg" border="0" height="250" width="280">
+              <p>
+              That are some of the new products, paint extintors
+              </p>
+               <img src="Images/chorreos.jpg">
+              
+            </div>
         </div>
-         
-         </div>
- 
-    </body>
+        </div>
+       </body>
 </html>
